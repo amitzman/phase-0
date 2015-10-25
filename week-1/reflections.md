@@ -47,3 +47,38 @@ rm - removes a file
 help - displays helpful information about built-in commands.
 
 # 1.4 Forking and Cloning Reflection
+**If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?**
+
+Creating a Repo
+
+1. Log in to your Github account
+2. Click on the ‘+’ and select “New repository”.  This is in the upper right hand corner of the page next to your profile picture.
+3. Name your repo a name.  Like “phase-0”.
+4. Give it a public or private access.  If you have a free account then public is your only option.
+5. If you want to be able to immediately clone a repo to your computer, then you need to select a license.  Use “MIT License” for Rails and jQuery projects.
+6. Click “Create repository”
+
+
+Forking a Repo
+
+1. Login to your Github account
+2. Go to the user’s repository that you wish to fork.
+3. Click on the fork button which is below your profile picture
+4. Select yourself
+
+Cloning a Repo
+
+1. Login to your Github account
+2. Go to your profile
+3. Select which repo you would like to clone
+4. In the terminal change to directories to where you would like to clone the repo
+5. Copy the SSH clone URL or HTTPS clone URL to the clipboard from the repo page on Github
+6. In the terminal type “git clone URL”.  **URL = paste what you copied into the clipboard**
+
+I would fork a repo when I want access to an already existing project.  I would be able to make my own changes to the forked repo without affecting the original project.  Instead of creating a brand new project, I could fork into someone else’s project and use that as my starting point for a new project of my own.
+
+
+
+**What struggles did you have setting up git and GitHub? What did you learn in the process?**
+
+It was pretty straightforward to set up, so I didn’t have any struggles. Going through the process I learned more about the relationship between Git and GitHub.  I was able to see more clearly how Git is all on the command line through the cloning process.
