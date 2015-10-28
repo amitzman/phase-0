@@ -1,2 +1,2 @@
-![alt text](/imgs/site-map.png)
+![alt text](phase-0/week-2/imgs/site-map.png)
 
