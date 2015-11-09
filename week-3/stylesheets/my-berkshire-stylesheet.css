@@ -1,0 +1,84 @@
+* {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+a {
+  color: #800080;
+}
+
+a:active {
+  color: #ff0000;
+}
+
+.small {
+  display: block;
+  font-size: 10px;
+}
+
+.list1 li {
+  width: 50%;
+  float: left;
+  padding-bottom: 10px;
+  height: 50px;
+
+}
+
+/*.list2 {
+  text-align: right;
+}*/*/
+
+.small {
+font-size: 10px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 1px solid black
+
+}
+
+.break {
+  display: block;
+}
+
+.caps {
+  font-size: 55px;
+}
+
+.geico {
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 500px;
+
+
+}
+
+.email {
+  border-bottom: 1px solid black;
+}
+
+
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It is important to place the link tag in the document <HEAD>.  The type attribute is used to specify a media type, in our case it was text/css.  The REL attribute is used to define the relationship and in this case it is stylesheet.  Then the HREF is where we link the stylesheet file.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+Didn’t really know any tricks.  Most of the positioning was a lot of trial and error.  It wasn’t as hard as thought it would be.  We experienced one difficult part and we knew had to change the margin, but it took us a while to figure out exactly how much to change it by.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+The most commonly ones we used were color to change the font color, border to add the lines to the page, font-size to change font-size.  We also used display, padding, margin, height, and width.
+
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+We did modify the html and used classes.  We added several spans, some of the spans did the same thing while other spans did a different things.  So we gave them classes since we couldn’t do css to the “span” element by itself.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think we had a cleaner code since we had a separate style sheet.  Looks like they did the CSS with a style on the specific html element.  Makes it a lot hard to read.*/
