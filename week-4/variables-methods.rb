@@ -15,6 +15,17 @@ puts "I think " + big_num.to_s + ' is a better and bigger number'
 
 
 =begin
+Link to excercises
+
+Empty Method:
+https://github.com/amitzman/phase-0/blob/master/week-4/my_solution.rb
+
+Address:
+https://github.com/amitzman/phase-0/blob/master/week-4/address/my_solution.rb
+
+Math:
+https://github.com/amitzman/phase-0/blob/master/week-4/math/my_solution.rb
+
 How do you define a local variable?
 
 You define a local variable like the this: my_name = "Alex".  The first character of the variable must be lowercase.
