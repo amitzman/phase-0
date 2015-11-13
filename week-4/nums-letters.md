@@ -1,3 +1,6 @@
+**Links to Exercises**
+
+
 **What does puts do?**
 
 puts returns nil and prints the output to the consoloe with a new line.  For example "puts 1+2" in a ruby file will return 3 to the console and adds a new line after 3.
