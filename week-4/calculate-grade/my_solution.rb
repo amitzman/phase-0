@@ -7,15 +7,15 @@
 
 def get_grade(avg)
   if avg >= 90
-  return "A"
+    return "A"
   elsif avg >= 80
-  return "B"
+    return "B"
   elsif avg >= 70
-  return "C"
+    return "C"
   elsif avg >= 60
-  return "D"
+    return "D"
   else
-  return "F"
+    return "F"
   end
 end
 

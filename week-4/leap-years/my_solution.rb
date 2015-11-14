@@ -6,12 +6,12 @@
 # Your Solution Below
 def leap_year?(leap)
   if leap % 4 != 0
-  return false
+    return false
   elsif leap % 4 == 0 && leap % 100 == 0 && leap % 400 != 0
-  return false
+    return false
   else
-  return true
+    return true
   end
 end
 
-p leap_year?(2004)
+p leap_year?(1000)
