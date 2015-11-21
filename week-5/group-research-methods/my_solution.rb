@@ -40,9 +40,9 @@ my_hash_modification_method!(my_family_pets_ages, 10)
 print my_family_pets_ages
 
 # Identify and describe the Ruby method(s) you implemented.
+#For my_array_modification_method! I implemented two methods.  The first one is .map!.  I chose the bang ('!') because the non destructive (map) element creates a new array.  .map! will alter the current array with code a block.  In this instance I did an IF statement in the block.  I checked to see if the element is an integer with .is_a?.  This will return true if the class passed through is true.  So if it is an integer it will add a number to the integer element.
 #
-#
-#
+#For my_hash_modification_method!  All I used was the .each iterator and modified each value with the number passed through as the arguement.
 
 
 # Person 3
