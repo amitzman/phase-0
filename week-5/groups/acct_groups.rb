@@ -29,18 +29,15 @@ def acct_groups(*names)
       end
     end}
 
-
   i = 1
-
   while i <= groups.length
     puts "Group #{i}: #{groups[i-1]}"
-
     i+=1
   end
 end
 
 
-acct_groups('don', 'gary', 'kaleb', 'victor', 'howard', 'joel', 'danny', 'david', 'mike', 'chris', 'carter', 'sammy', 'becca', 'rachel', 'sunny', 'marie', 'jodi', 'morgan', 'amanda')
+acct_groups('don', 'gary', 'kaleb', 'victor', 'howard', 'joel', 'danny', 'david', 'mike', 'chris', 'carter', 'sammy', 'becca', 'rachel', 'sunny', 'marie', 'jodi', 'morgan', 'amanda', 'bobby', 'buck', 'reggie', 'carl')
 
 
 
