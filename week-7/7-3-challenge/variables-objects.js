@@ -4,9 +4,14 @@
 
 // __________________________________________
 // Write your code below.
-
-
-
+var secretNumber = 31;
+secretNumber = 7;
+var password = "JavaScript";
+password = "just open the door";
+var allowedIn = false;
+var members = []
+members = ['John']
+members = ['John', true, false, 'Mary']
 
 
 
