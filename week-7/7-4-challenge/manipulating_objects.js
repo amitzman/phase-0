@@ -48,7 +48,17 @@ adam.children = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-//
+//What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+
+  // Didn’t really have any difficulties passing any tests.  It was pretty similar to modifying values of hashes.
+
+// How difficult was it to add and delete properties outside of the object itself?
+
+  // Wasn’t difficult at all.  Use ‘delete’ before the property we would like to delete.  Then just do object.property to add a property.
+
+// What did you learn about manipulating objects in this challenge?
+
+  // I learned that I can assign another objects property to an objects property.  Like assigning terah.children for Adam’s children property.
 //
 //
 //
