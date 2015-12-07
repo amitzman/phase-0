@@ -1,13 +1,18 @@
+//As a user, I want to be able to submit a group of numbers then it will return the average, median and sum of the group.
+
 function arrayMath(array){
 
   var sum = getSum(array), median = getMedian(array), mean = getMean(array);
   console.log('Your calculations are complete, the sum is '+sum+', the median is '+median+' and the mean is '+mean);
 };
 
+
+//As a user, I want to be able to submit a group of numbers then it will return the sum of all the numbers in the group.
 function getSum(array){
   return array.reduce(function(a,b) {return a+b;});  //Not supported by all browsers
 };
 
+//As a user, I want to be able to submit a group of numbers then it will return the median of the group.
 function getMedian(array){
   array.sort(function(a, b){return a-b});
   var len = array.length;
@@ -19,6 +24,7 @@ function getMedian(array){
   }
 };
 
+//As a user, I want to be able to submit a group of numbers then it will return the average of the group.
 function getMean(array){
   return getSum(array)/array.length;
 };
@@ -26,53 +32,3 @@ function getMean(array){
 arrayMath([5, 1, 9, 10, 100]);
 
 
-
-// INITIAL SOLUTION
-
-// function arrayMath(array){
-
-//   var sum, median, mean;
-//      sum = getSum(array);
-//   median = getMedian(array);
-//     mean = getMean(array);
-//   console.log('Your calculations are complete, the sum is '+sum+', the median is '+median+' and the mean is '+mean);
-// }
-
-// function getSum(array){
-//   var total = 0;
-//   array.forEach(function(el){
-//     total += el;
-//   });
-//   return total;
-// }
-// function getMedian(array){
-//   array.sort(function(a, b){return a-b});
-//   var median, center;
-//   var len = array.length;
-//   isEven = (len % 2 == 0) ? true: false;
-//   if(isEven){
-//      var indexes = [len/2,len/2-1];
-//      var total = 0;
-//      indexes.forEach(function(el){
-//        total += this[el];
-//      }, array);
-//      median = total/2;
-//   }
-//   else{
-//     center = (len-1)/2;
-//     median = array[center];
-//   }
-
-//   return median;
-// }
-
-// function getMean(array){
-//   var total = 0;
-//   array.forEach(function(el){
-//     total += el;
-//   });
-//   return total/array.length;
-
-// }
-
-// arrayMath([5,4,1,20,5]);
