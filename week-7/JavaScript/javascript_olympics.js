@@ -55,3 +55,14 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 
 // Reflection
+// What JavaScript knowledge did you solidify in this challenge?
+
+  // Getting more comfortable going through the MDN files to research.  As well as iterating through arrays and modifying them.
+
+// What are constructor functions?
+
+  // Constructor functions are similar to classes in Ruby.  It’s a way that we can easily create an Object and would be best used if we plan on creating many of those objects.
+
+// How are constructors different from Ruby classes (in your research)?
+
+  // In Ruby, we can create methods for the class and can be called upon on an instance.  Whereas it doesn’t appear the same with the constructors.

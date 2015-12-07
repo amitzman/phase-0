@@ -83,9 +83,24 @@ return numArrayReverse.reverse().join('')
 }
 
 // Your Own Tests (OPTIONAL)
-
+console.log(separateComma(1000000000000))
 
 
 
 // Reflection
-console.log(separateComma(1000000000000))
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+
+  // We had a very similar approach to the one I had for my solo challenge a couple weeks ago.  Felt it made it much easier to approach with JavaScript.
+
+// What did you learn about iterating over arrays in JavaScript?
+
+  // I learned that they are very similar to Ruby and that they are pretty much the same fundamental wise but very different syntax wise.
+
+
+// What was different about solving this problem in JavaScript?
+
+  // Just the syntax was different as well the properties of arrays and strings.
+
+// What built-in methods did you find to incorporate in your refactored solution?
+
+  // We didn’t incorporate, but through researching we found a splice method that looked like it could work.  Which will insert a string a specified element in an array.  But we couldn’t quite get it to work.
