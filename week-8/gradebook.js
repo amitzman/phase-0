@@ -15,46 +15,52 @@ var scores = [ [80, 70, 70, 100],
                [75, 70, 80, 75],
                [100, 90, 95, 85] ]
 
-var gradebook = {}
-
-for (var i = 0; i < students.length; i++){
-  gradebook[students[i]] = {}
-}
-
-
-for (var i = 0; i < scores.length; i++){
-  gradebook[students[i]]['testScores'] = scores[i]
-}
-
-gradebook['addScore'] = function(name, score){
-  gradebook[name].testScores.push(score);
-}
-
-gradebook.getAverage = function(){}
-
-average = function(numArray){
- var sum = 0;
-  for(var element = 0; element < numArray.length; element++)
-    {
-      sum += numArray[element];
-    }
-  return sum/numArray.length;
-}
-
-gradebook.getAverage = function(name){
-  return average(gradebook[name].testScores)
-
-}
-
-
-
-
-console.log(gradebook)
 
 
 // __________________________________________
 // Write your code below.
 
+// //Release 1 Create a gradebook
+// var gradebook = {}
+
+
+// //Release 2 Add Students to gradebook
+// for (var i = 0; i < students.length; i++){
+//   gradebook[students[i]] = {}
+// }
+
+// //Release 3 Add Test Scores
+// for (var i = 0; i < scores.length; i++){
+//   gradebook[students[i]]['testScores'] = scores[i]
+// }
+
+// //Release 4 Add New Scores
+// gradebook['addScore'] = function(name, score){
+//   gradebook[name].testScores.push(score);
+// }
+
+// //Release 5: Create a Function to Calculate Averages
+// gradebook.getAverage = function(){}
+
+
+// //Release 6: Create a Function to Average Grades
+// average = function(numArray){
+//  var sum = 0;
+//   for(var element = 0; element < numArray.length; element++)
+//     {
+//       sum += numArray[element];
+//     }
+//   return sum/numArray.length;
+// }
+
+// //Release 7: Modify getAverage Function
+// gradebook.getAverage = function(name){
+//   return average(gradebook[name].testScores)
+
+// }
+
+
+// console.log(gradebook)
 
 
 
@@ -64,10 +70,41 @@ console.log(gradebook)
 
 // __________________________________________
 // Refactored Solution
+//Release 1 Create a gradebook
+var gradebook = {}
 
 
+//Release 2 Add Students to gradebook
+for (i in students){
+  gradebook[students[i]] = {}
+}
+
+//Release 3 Add Test Scores
+for (i in students){
+  gradebook[students[i]]['testScores'] = scores[i]
+}
+
+//Release 4 Add New Scores
+gradebook['addScore'] = function(name, score){
+  gradebook[name].testScores.push(score);
+}
+
+//Release 5: Create a Function to Calculate Averages
+gradebook.getAverage = function(){}
 
 
+//Release 6: Create a Function to Average Grades
+average = function(numArray){
+  return  numArray.reduce(function(a,b) {return a+b;})/numArray.length
+}
+
+//Release 7: Modify getAverage Function
+gradebook.getAverage = function(name){
+  return average(gradebook[name].testScores)
+}
+
+
+console.log(gradebook)
 
 
 
@@ -75,7 +112,17 @@ console.log(gradebook)
 // __________________________________________
 // Reflect
 
+// What did you learn about adding functions to objects?
 
+  // I learned that functions are added the same way as any other property.
+
+// How did you iterate over nested arrays in JavaScript?
+
+  // Used for loops.  Set a counter and I used the counter as the index number then to access the arrays of students.
+
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+
+  // The reduce method.  Allows you to take an array of numbers and will reduce it down to a single value.  In this case I was able to add each number in the array and it returned a single value of the sum.  Then I was able to divide that by the length of the array to get the average.
 
 
 
