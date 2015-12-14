@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge with: Albert
+// This challenge took me [1.5] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -61,16 +61,6 @@ var officers = {
   secretary: undefined,
   treasurer: undefined
 }
-
-// Pseudocode
-
-// Bob should receive three votes for president
-  //Iterate through the voters in votes
-  //IF the nested object has a property 'president' and is equal to 'Bob'
-  //THEN add Bob as new value to varCount with a counter
-
-// __________________________________________
-// Initial Solution
 
 // Pseudocode
 // Bob should receive 3 votes for President
@@ -188,7 +178,17 @@ console.log(officers)
 
 // __________________________________________
 // Reflection
+// What did you learn about iterating over nested objects in JavaScript?
 
+  // When it comes iterating, learned the useful method .hasOwnProperty which came in handy.  Learned that testing is very critical at least for now, when doing multiple loops through objects, just to see what property and value we’re accessing.
+
+// Were you able to find useful methods to help you with this?
+
+  // The Object.keys and .reduce function were very clutch for being able to list all of the winners.  Object.keys was able to turn into an array of each voter name.  Then we were able to use the .reduce to be able to compare each value of each element to determine the highest one.
+
+// What concepts were solidified in the process of working through this challenge?
+
+  // Iterating over nested objects.  Good to get more experience doing it.  Felt we did a good job breaking it down into very small steps which helped make refactoring much easier.
 
 
 
